@@ -1,28 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Skyjoyyy form</title>
-  </head>
-  <body style="background-color: #73B1C1;">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyjoy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand">Skyjoyform</h1>
+        <div class ="wrapper">
+            <div class ="company-info">
+                <h3>Skyjoy form</h3>
+                <ul>
+                    <li>44 something st</li>    
+                    <li>028 4444 4444</li>   
+                    <li>test@skyjoy.test</li>   
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <form>
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone">
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5"></textarea>
+                    </p>
+                    <p class ="full">
+                        <button>Submit</button>
+                    </p>
 
-    <form action="https://mailto:kateturley@chromalighting.co.uk" method="post" enctype="text/plain">
-      <label>Put a question or statement here..</label>
-      <input type="text" name="yourStatement" value =""><br>
-      <input type="file"><br>
-      <input type="date"><br>
-      <input type="radio"><br>
-      <input type="range"><br>
-      <hr>
-      <label>Your email</label>
-      <input type="email" name="youEmail" value=""><br>
-      <hr>
-      <label>Notes for the day</label>
-      <textarea name="DailyNotes" rows="8" cols="80"></textarea>
-      <input type="submit"><br>
-    </form>
+
+                </form>
 
 
 
-  </body>
+            </div>
+        </div>
+    </div>
+           
+
+          
+</body>
 </html>
