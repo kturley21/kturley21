@@ -33,6 +33,10 @@ ul{
 
 .wrapper > *{
     padding: 1em;
+    
+    
+    
+    
 }
 
 .company-info{
@@ -117,4 +121,26 @@ ul{
    position: absolute;
    top: 0;
    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #8842d5;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px 17px;
+    text-decoration: none;
+}
+
+/* When the link is hovered on, its color will change */
+li a:hover {
+    background-color: #7300ff;
+    color: black;
 }
