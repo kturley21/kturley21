@@ -45,6 +45,13 @@ function submitForm(e){
     saveMessage(name, company, email, phone, message);
 
     // Show alert
+    document.querySelector('.alert').style.display = 'block';
+    
+    // Hide alert after 3 seconds
+    setTimeout(function(){
+        document.querySelector('.alert').style.display = 'none';
+    }, 3000);
+    
 }
 
 // Function to get form values
