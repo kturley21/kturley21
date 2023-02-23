@@ -44,6 +44,7 @@ function submitForm(e){
     // Save message
     saveMessage(name, company, email, phone, message);
 
+    // Show alert
 }
 
 // Function to get form values
