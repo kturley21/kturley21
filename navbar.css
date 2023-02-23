@@ -1,7 +1,9 @@
 body, html{
   margin: 0;
   padding: 0;
+  background-color: #282828;
 }
+
 
 header{
   width: 100%;
