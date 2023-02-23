@@ -1,73 +1,30 @@
+
+
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skyjoy</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <ul>
-  <li><a href="index.asp">Home</a></li>
-  <li><a href="dashboard.html">Dashboard</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="landing.html">Landing Page</a></li>
-    </ul>
-    
-    <div class="container">
-        <h1 class="brand">Skyjoy resident form</h1>
-        <div class ="wrapper">
-            <div class ="company-info">
-                <h3>Skyjoy form</h3>
-                <ul>
-                    <li><i class="fa fa-map-signs"></i> 213 - 215 Donegal Avenue, Belfast </li>    
-                    <li><i class="fa fa-phone"></i> 07546120473 </li>   
-                    <li><i class="fa fa-envelope-open"></i> kateturley@chromalighting.co.uk </li>     
-                </ul>
-            </div>
-            <div class="contact">
-                <h3>Email Us</h3>
-                <div class="alert">Your message has been sent</div>
-                <form id="contactForm">
-                    <p>
-                        <label>Name</label>
-                        <input type="text" name="name" id="name" required>
-                    </p>
-                    <p>
-                        <label>Company</label>
-                        <input type="text" name="company" id="company">
-                    </p>
-                    <p>
-                        <label>Email Address</label>
-                        <input type="email" name="email" id="email" required>
-                    </p>
-                    <p>
-                        <label>Phone Number</label>
-                        <input type="text" name="phone" id="phone">
-                    </p>
-                    <p class="full">
-                        <label>Message</label>
-                        <textarea name="message" rows="5" id="message"></textarea>
-                    </p>
-                    <p class ="full">
-                        <button type="submit">Submit</button>
-                    </p>
-
-
-                </form>
-
-
-
-            </div>
-        </div>
-    </div>
-           
-    <!--<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>-->
-
-
-    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-compat.js"></script>
-    <script type="module" src="main.js"></script>  
-</body>
+  <head>
+    <meta charset="2utf-8">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+  </head>
+  
+  <header>
+    <h1>Sky<span>joy</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <body>
+    <img src="skyjoy.png" class="responsive">
+  </body>
+  
+  
 </html>
