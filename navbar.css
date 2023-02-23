@@ -131,17 +131,17 @@ body{
 .contact form button, .contact form input, .contact form textarea{
     width: 100%;
     padding: 1em;
-    border: 1px solid #FFD966;
+    border: 1px solid #333333;
 }
 
 .contact form button{
-    background: #FFD966;
+    background: #e5e5ff;
     border:0;
     text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus{
-    background:#92bde7;
+    background:#e5e5ff;
     color: #fff;
     outline:0;
     transition: background-color 2s ease-out;
