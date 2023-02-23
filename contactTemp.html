@@ -23,7 +23,59 @@
   </header>
   
   <body>
-      
+      <div class="container">
+        <h1 class="brand">Skyjoy resident form</h1>
+        <div class ="wrapper">
+            <div class ="company-info">
+                <h3>Skyjoy form</h3>
+                <ul>
+                    <li><i class="fa fa-map-signs"></i> 213 - 215 Donegal Avenue, Belfast </li>    
+                    <li><i class="fa fa-phone"></i> 07546120473 </li>   
+                    <li><i class="fa fa-envelope-open"></i> kateturley@chromalighting.co.uk </li>     
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactForm">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company" id="company">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class ="full">
+                        <button type="submit">Submit</button>
+                    </p>
+
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+           
+    <!--<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>-->
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-compat.js"></script>
+    <script type="module" src="main.js"></script>  
   </body>
   
   
