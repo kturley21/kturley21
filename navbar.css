@@ -68,7 +68,7 @@ img{
 }
 
 body{
-    background: #92bde7;
+    background: #282828;
     color: #485e74;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,7 +96,7 @@ body{
 }
 
 .company-info{
-    background: #c9e6ff;
+    background: #FFD966;
 }
 
 .company-info h3, .company-info ul{
@@ -105,7 +105,7 @@ body{
 }
 
 .contact{
-    background: #f9feff;
+    background: #FFD966;
 }
 
 /* FORM STYLES */
@@ -131,11 +131,11 @@ body{
 .contact form button, .contact form input, .contact form textarea{
     width: 100%;
     padding: 1em;
-    border: 1px solid #c9e6ff;
+    border: 1px solid #FFD966;
 }
 
 .contact form button{
-    background: #c9e6ff;
+    background: #FFD966;
     border:0;
     text-transform: uppercase;
 }
