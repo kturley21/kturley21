@@ -184,23 +184,13 @@ body{
   padding-top: 56.25%;
 }
 
-.wrapped-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  padding-top: 200px;
-  box-sizing: border-box;
-}
 
 .iframe-container {
-    position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 10vh;
+  height: 100vh;
   border: none;
   padding-top: 200px;
   box-sizing: border-box;
