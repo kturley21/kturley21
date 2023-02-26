@@ -202,6 +202,7 @@ body{
         position: fixed;
         width: 90%;
         height: 100%;
+        padding-right: 50px;
     }
 
     /* iframe itself */
@@ -210,4 +211,5 @@ body{
         width: 90%;
         height: 100%;
         border: none;
+        padding-right: 50px;
     }
