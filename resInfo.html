@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="2utf-8">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+  </head>
+  
+  <header>
+    <h1>Sky<span>joy</span></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactTemp.html">Contact</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="fall.html">Falls</a></li>
+        <li><a href="resInfo.html">Update Resident Details</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <body>
+      <div class="container">
+        <h1 class="brand">Skyjoy resident form</h1>
+        <div class ="wrapper">
+            <div class ="company-info">
+                <!--<h3>Skyjoy form</h3>-->
+            </div>
+            <div class="contact">
+                <h3>Resident details</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="residentForm">
+                    <p>
+                        <label>Room ID</label>
+                        <input type="text" name="room" id="room" required>
+                    </p>
+                    <p>
+                        <label>Age</label>
+                        <input type="text" name="age" id="age">
+                    </p>
+                    <p>
+                        <label>Gender</label>
+                        <input type="name" name="gender" id="gender" required>
+                    </p>
+                    <p>
+                        <label>Weight</label>
+                        <input type="text" name="weight" id="weight">
+                    </p>
+                     <p>
+                        <label>Dementia type</label>
+                        <input type="text" name="type" id="type">
+                    </p>
+                   <p>
+                        <label>Dementia state of progression</label>
+                        <input type="text" name="state" id="state">
+                    </p>
+                   <p>
+                        <label>Time since diagnosis (months)</label>
+                        <input type="text" name="time" id="time">
+                    </p>
+                       <p>
+                        <label>Prescription drugs such as sedatives, mood alterating drugs etc?</label>
+                        <input type="text" name="time" id="time">
+                    </p>
+                    <p class="full">
+                        <label>Additional information</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class ="full">
+                        <button type="submit">Submit</button>
+                    </p>
+
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+           
+    <!--<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>-->
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-compat.js"></script>
+    <script type="module" src="resInfo.js"></script>  
+  </body>
+  
+  
+</html>
