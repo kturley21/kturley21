@@ -75,7 +75,7 @@ function saveMessage(room, age, gender, weight, type, state, time, drugs, messag
         age: age,
         gender: gender,
         weight: weight,
-        type: type
+        type: type,
         state : state,
         time: time,
         drugs: drugs,
