@@ -23,10 +23,10 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref('residentInfo');
+var messagesRef = firebase.database().ref('resInfo');
 
 // Listen for form submit
-document.getElementById('resForm').addEventListener('submit', submitForm);
+document.getElementById('residentForm').addEventListener('submit', submitForm);
 
 // Submit form
 function submitForm(e){
