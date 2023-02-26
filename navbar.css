@@ -200,14 +200,14 @@ body{
   /* iframe's parent node */
     div#root {
         position: fixed;
-        width: 100%;
+        width: 90%;
         height: 100%;
     }
 
     /* iframe itself */
     div#root > iframe {
         display: block;
-        width: 100%;
+        width: 90%;
         height: 100%;
         border: none;
     }
