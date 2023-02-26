@@ -26,7 +26,7 @@ firebase.initializeApp(firebaseConfig);
 var messagesRef = firebase.database().ref('residentInfo');
 
 // Listen for form submit
-document.getElementById('residentForm').addEventListener('submit', submitForm);
+document.getElementById('resForm').addEventListener('submit', submitForm);
 
 // Submit form
 function submitForm(e){
