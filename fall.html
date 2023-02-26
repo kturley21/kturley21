@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="2utf-8">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+  </head>
+  
+  <header>
+    <h1>Sky<span>joy</span></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactTemp.html">Contact</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="fall.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <body>
+      <div class="container">
+        <h1 class="brand">Skyjoy resident form</h1>
+        <div class ="wrapper">
+            <div class ="company-info">
+                <!--<h3>Skyjoy form</h3>-->
+            </div>
+            <div class="fall">
+                <h3>Fall details</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="fallForm">
+                    <p>
+                        <label>Room ID</label>
+                        <input type="text" name="room" id="room" required>
+                    </p>
+                    <p>
+                        <label>Location of fall</label>
+                        <input type="text" name="location" id="location">
+                    </p>
+                    <p>
+                        <label>Date of fall</label>
+                        <input type="date" name="date" id="date">
+                    </p>
+                    <p>
+                        <label>Time of fall</label>
+                        <input type="time" name="time" id="time" required>
+                    </p>
+                    <p class="full">
+                        <label>Additional details</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class ="full">
+                        <button type="submit">Submit</button>
+                    </p>
+
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+           
+    <!--<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>-->
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-compat.js"></script>
+    <script type="module" src="main.js"></script>  
+  </body>
+  
+  
+</html>
